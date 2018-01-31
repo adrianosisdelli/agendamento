@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agendamento
+namespace Agendamento.Interfaces
 {
-    public class Controladora
+    public interface IController
     {
-        private int qtdeSolicitacoes = 0;
     }
 }
