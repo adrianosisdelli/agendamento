@@ -9,21 +9,10 @@ namespace Agendamento
 {
     public class Controladora
     {
-        private string nome;
         private int qtdeSolicitacoes = 0;
+        private IDisplay display;
         private IController controladora;
 
-        public Controladora(string vNome)
-        {
-            this.nome = vNome;
-        }
-
-        public string getNome()
-        {
-            this.qtdeSolicitacoes++;
-
-            return this.nome;
-        }
-
+        private void notificar() { }
     }
 }
