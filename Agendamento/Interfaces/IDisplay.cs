@@ -8,6 +8,6 @@ namespace Agendamento.Interfaces
 {
     public interface IDisplay
     {
-        string receberDados(string dados);
+        void receberDados(string dados);
     }
 }
