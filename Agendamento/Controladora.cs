@@ -10,7 +10,7 @@ namespace Agendamento
     public class Controladora
     {
         private int qtdeSolicitacoes = 0;
-        private IDisplay display;
+        public IDisplay display { get; private set; }
         private IController controladora;
 
         private void notificar() { }
